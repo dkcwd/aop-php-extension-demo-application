@@ -1,0 +1,71 @@
+<?php 
+return array(
+    'allow_url_include',
+	'apc.cache_by_default',
+	'apc.optimization',
+	'apd.dumpdir',
+	'apd.statement_tracing',	
+	'arg_separator.output',
+	'assert.active',
+	'assert.bail',
+	'assert.callback',
+	'assert.quiet_eval',
+	'assert.warning',
+	'auto_detect_line_endings',
+	
+	'date.timezone',
+	
+	'display_errors',
+	'display_startup_errors',
+	
+	'memcache.allow_failover',
+	'memcache.chunk_size',
+	'memcache.default_port',
+	'memcache.hash_function',
+	'memcache.hash_strategy',
+    'memcache.max_failover_attempts',
+	'memory_limit',
+		
+	'mongo.allow_empty_keys',
+	'mongo.allow_persistent',
+	'mongo.chunk_size',
+	'mongo.cmd',
+	'mongo.default_host',
+	'mongo.default_port',
+	'mongo.is_master_interval',
+	'mongo.long_as_object',
+	'mongo.native_long',
+	'mongo.ping_interval',
+	'mongo.utf8',
+	
+	'msql.allow_persistent',
+	'msql.max_links',
+	'msql.max_persistent',
+		
+	'open_basedir',
+		
+	'session.auto_start',
+	'session.cache_expire',
+	'session.cache_limiter',
+	'session.cookie_domain',
+	'session.cookie_httponly',
+	'session.cookie_lifetime',
+	'session.cookie_path',
+	'session.cookie_secure',
+	'session.entropy_file',
+	'session.entropy_length',
+
+	'session.hash_bits_per_character',
+	'session.hash_function',
+	'session.name',
+	'session.referer_check',
+	'session.save_handler',
+	'session.save_path',
+	'session.serialize_handler',
+	'session.use_cookies',
+	'session.use_only_cookies',
+	
+	'zlib.output_compression',
+	'zlib.output_compression_level',
+	'zlib.output_handler'
+);
